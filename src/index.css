@@ -1,0 +1,21 @@
+:root {
+  --bg-main: #000000;
+  --bg-secondary: #1a1a1a;
+  --bg-tertiary: #242424;
+  --text-main: #ffffff;
+  --text-secondary: #a0a0a0;
+  --text-tertiary: #646cff;
+}
+
+
+body{
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.darkveil-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
