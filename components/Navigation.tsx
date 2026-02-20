@@ -16,7 +16,8 @@ const Navigation = () => {
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Teach</a></li>
-                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
 
                 <div className="bg-gray-200 px-10 py-1 rounded-lg">

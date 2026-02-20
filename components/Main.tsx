@@ -40,20 +40,28 @@ const cardInfo: Info[] = [
         name: "Postgres",
         image: "/postgresql-svgrepo-com.svg"
     },
+    {
+        name: "MongoDB",
+        image: "/MongoDB.svg"
+    },
+    {
+        name: "Linux",
+        image: "/Linux.svg"
+    },
 ]
 
 export const Card = ({ name, image }: Info) => {
     return (
-        <div className='flex items-center flex-col w-50 bg-amber-50/7 backdrop-blur-md gap-4 px-4 pb-4 pt-6 rounded-2xl border border-white/10'>
+        <div className='flex items-center flex-col w-30 h-44 bg-amber-50/7 backdrop-blur-md gap-4 px-4 pb-4 pt-6 rounded-2xl border border-white/10'>
             <img className='w-full' src={image} alt="html-icon" />
-            <h1 className='text-white text-3xl'>{name}</h1>
+            <h1 className='text-white text-xl'>{name}</h1>
         </div>
     )
 }
 
 const Main = () => {
     return (
-        <main className='mx-6'>
+        <main className=''>
             <div className='mt-50 p-6 rounded-xl border border-white/5 bg-amber-50/10 backdrop-blur-md'>
                 <h1 className='text-white text-4xl mb-6'>Abou Me</h1>
                 <div>
